@@ -1,6 +1,4 @@
 public class PrincipalClass {
-    static int numero=0;
-
     public PrincipalClass() throws InterruptedException {
         PrimerThread th1 = new PrimerThread();
         SecondThread th2 = new SecondThread(this);
@@ -10,7 +8,6 @@ public class PrincipalClass {
     }
 
     public void muestraString(String nombre,String tiempo){
-        System.out.println(nombre);
-        System.out.println(tiempo);
+        System.out.println(nombre+"\n"+tiempo);
     }
 }
