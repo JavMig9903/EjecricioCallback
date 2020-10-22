@@ -7,7 +7,7 @@ public class SecondThread extends Thread{
 
     @Override
     public void run() {
-        int repeat=PrincipalClass.numero;
+        int repeat=Main.numero;
         int veces=0;
         Long empieza = System.currentTimeMillis();
         for(int i=0;i<repeat;i++){
